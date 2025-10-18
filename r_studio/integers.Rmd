@@ -1,0 +1,33 @@
+---
+title: "Practice Assignment 1"
+author: "Shafiqah"
+date: "2025-10-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Print 1 to 10
+
+```{r}
+print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+```
+
+## Using Loops
+
+```{r}
+for (i in 1:10) {
+  print(i)
+}
+```
